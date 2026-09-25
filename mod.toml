@@ -1,0 +1,16 @@
+[manifest]
+id = "keiper_mode"
+version = "1.0.0"
+display_name = "KeiperDontCare Mode"
+description = "Makes everything red"
+short_description = "Makes everything red"
+authors = [ "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "keiper_mode"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
